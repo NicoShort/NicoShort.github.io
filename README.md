@@ -18,16 +18,17 @@
 # Nico Short
 
 <div class="side-panel">
-  ## Contact Information
-  **Email:** [example@example.com]
+  
+  **Contact Information** 
+  Email: [example@example.com]
+  Phone: Phonenumb
 
-  **GitHub:** [Nico Short GitHub](https://github.com/NicoShort)
-
-  **LinkedIn:** [Nico Short LinkedIn]
-
-Welcome to my GitHub profile! Im Learning/ doing my best!
+  **LinkedIn** 
+  [Nico Short LinkedIn]
 
 </div>
+
+Welcome to my GitHub profile! Im Learning/ doing my best!
 
 ## About Me
 
