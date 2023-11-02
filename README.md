@@ -24,7 +24,6 @@
   **GitHub:** [Nico Short GitHub](https://github.com/NicoShort)
 
   **LinkedIn:** [Nico Short LinkedIn]
-</div>
 
 Welcome to my GitHub profile! Im Learning/ doing my best!
 
