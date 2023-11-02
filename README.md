@@ -36,5 +36,5 @@ Something about me.
 
 ## Projects
 
-all the projects.
+This is painful.
 
