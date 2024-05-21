@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,16 +80,20 @@
 
         .block {
             position: absolute;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             border-radius: 20%;
             z-index: -1;
         }
 
+        .block1, .block2, .block3, .block4, .block5, .block6, .block7 {
+            border: 2px solid #fff;
+        }
+
         .block1 {
             background-color: #b2dfdb;
-            top: -50px;
-            left: -50px;
+            top: -100px;
+            left: -100px;
         }
 
         .block2 {
@@ -102,8 +105,32 @@
 
         .block3 {
             background-color: #c5cae9;
-            bottom: -50px;
-            right: -50px;
+            bottom: -100px;
+            right: -100px;
+        }
+
+        .block4 {
+            background-color: #ffecb3;
+            top: 10%;
+            right: 10%;
+        }
+
+        .block5 {
+            background-color: #e6ee9c;
+            bottom: 20%;
+            left: 20%;
+        }
+
+        .block6 {
+            background-color: #f8bbd0;
+            top: 70%;
+            left: 10%;
+        }
+
+        .block7 {
+            background-color: #80cbc4;
+            bottom: 60%;
+            right: 20%;
         }
     </style>
 </head>
@@ -112,6 +139,10 @@
         <div class="block block1"></div>
         <div class="block block2"></div>
         <div class="block block3"></div>
+        <div class="block block4"></div>
+        <div class="block block5"></div>
+        <div class="block block6"></div>
+        <div class="block block7"></div>
     </div>
     <header>
         <h1>Nico Short</h1>
