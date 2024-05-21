@@ -5,10 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nico Short's Personal Webpage</title>
     <style>
-        /* Your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            position: relative;
+        }
+
+        header {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #4a4a4a;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d0d0d0;
+            padding: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #666;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        section {
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e0e0e0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .background-blocks {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .block {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+            z-index: -1;
+        }
+
+        .block1 {
+            background-color: #b2dfdb;
+            top: -50px;
+            left: -50px;
+        }
+
+        .block2 {
+            background-color: #ffccbc;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .block3 {
+            background-color: #c5cae9;
+            bottom: -50px;
+            right: -50px;
+        }
     </style>
 </head>
 <body>
+    <div class="background-blocks">
+        <div class="block block1"></div>
+        <div class="block block2"></div>
+        <div class="block block3"></div>
+    </div>
     <header>
         <h1>Nico Short</h1>
     </header>
