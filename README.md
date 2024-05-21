@@ -82,12 +82,9 @@
         .block {
             position: absolute;
             width: 250px;
-            height: 400px; /* elongated height */
+            height: 400px;
             border-radius: 20%;
             z-index: -1;
-        }
-
-        .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16 {
             border: none; /* removed white borders */
         }
 
@@ -114,14 +111,14 @@
             background-color: #ffecb3;
             top: 10%;
             right: 10%;
-            width: 300px; /* elongated width */
+            width: 300px;
         }
 
         .block5 {
             background-color: #e6ee9c;
             bottom: 20%;
             left: 20%;
-            width: 300px; /* elongated width */
+            width: 300px;
         }
 
         .block6 {
@@ -140,35 +137,35 @@
             background-color: #ffd180;
             top: 40%;
             left: 40%;
-            width: 400px; /* elongated width */
+            width: 400px;
         }
 
         .block9 {
             background-color: #b39ddb;
             bottom: 10%;
             right: 5%;
-            height: 300px; /* elongated height */
+            height: 300px;
         }
 
         .block10 {
             background-color: #90caf9;
             top: 80%;
             left: 80%;
-            height: 300px; /* elongated height */
+            height: 300px;
         }
 
         .block11 {
             background-color: #ffab91;
             bottom: 30%;
             right: 30%;
-            width: 350px; /* elongated width */
+            width: 350px;
         }
 
         .block12 {
             background-color: #80deea;
             top: 20%;
             left: 70%;
-            width: 200px; /* elongated width */
+            width: 200px;
         }
 
         .block13 {
@@ -181,18 +178,6 @@
             background-color: #c5e1a5;
             top: 90%;
             left: 20%;
-        }
-
-        .block15 {
-            background-color: #fff59d;
-            bottom: 80%;
-            right: 10%;
-        }
-
-        .block16 {
-            background-color: #ef9a9a;
-            top: 60%;
-            left: 5%;
         }
     </style>
 </head>
@@ -212,8 +197,6 @@
         <div class="block block12"></div>
         <div class="block block13"></div>
         <div class="block block14"></div>
-        <div class="block block15"></div>
-        <div class="block block16"></div>
     </div>
     <header>
         <h1>Nico Short</h1>
@@ -234,4 +217,21 @@
             <h2>Projects</h2>
             <p>Here are some of the projects I've worked on:</p>
             <ul>
-                <li><strong>
+                <li><strong>Project 1:</strong> Description of project 1.</li>
+                <li><strong>Project 2:</strong> Description of project 2.</li>
+                <li><strong>Project 3:</strong> Description of project 3.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please contact me at:</p>
+            <p class="muted-text">email@example.com</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nico Short</p>
+    </footer>
+</body>
+</html>
