@@ -81,142 +81,118 @@
 
         .block {
             position: absolute;
+            width: 250px;
+            height: 400px; /* elongated height */
             border-radius: 20%;
             z-index: -1;
         }
 
         .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16 {
-            border: none;
+            border: none; /* removed white borders */
         }
 
         .block1 {
             background-color: #b2dfdb;
-            width: 300px;
-            height: 50px;
             top: -100px;
             left: -100px;
         }
 
         .block2 {
             background-color: #ffccbc;
-            width: 200px;
-            height: 400px;
-            top: 10%;
-            left: 10%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         .block3 {
             background-color: #c5cae9;
-            width: 50px;
-            height: 300px;
             bottom: -100px;
             right: -100px;
         }
 
         .block4 {
             background-color: #ffecb3;
-            width: 150px;
-            height: 150px;
-            top: 20%;
-            right: 20%;
+            top: 10%;
+            right: 10%;
+            width: 300px; /* elongated width */
         }
 
         .block5 {
             background-color: #e6ee9c;
-            width: 200px;
-            height: 250px;
             bottom: 20%;
             left: 20%;
+            width: 300px; /* elongated width */
         }
 
         .block6 {
             background-color: #f8bbd0;
-            width: 100px;
-            height: 200px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 70%;
+            left: 10%;
         }
 
         .block7 {
             background-color: #80cbc4;
-            width: 350px;
-            height: 100px;
-            bottom: 30%;
-            right: 30%;
+            bottom: 60%;
+            right: 20%;
         }
 
         .block8 {
-            background-color: #ffab91;
-            width: 250px;
-            height: 150px;
+            background-color: #ffd180;
             top: 40%;
-            right: -100px;
+            left: 40%;
+            width: 400px; /* elongated width */
         }
 
         .block9 {
-            background-color: #c5e1a5;
-            width: 100px;
-            height: 250px;
-            bottom: -100px;
-            left: 50%;
-            transform: translateX(-50%);
+            background-color: #b39ddb;
+            bottom: 10%;
+            right: 5%;
+            height: 300px; /* elongated height */
         }
 
         .block10 {
             background-color: #90caf9;
-            width: 150px;
-            height: 300px;
-            top: 10%;
-            right: -50px;
+            top: 80%;
+            left: 80%;
+            height: 300px; /* elongated height */
         }
 
         .block11 {
-            background-color: #bcaaa4;
-            width: 50px;
-            height: 200px;
-            bottom: 10%;
-            left: 10%;
+            background-color: #ffab91;
+            bottom: 30%;
+            right: 30%;
+            width: 350px; /* elongated width */
         }
 
         .block12 {
-            background-color: #ffcc80;
-            width: 250px;
-            height: 100px;
-            top: 80%;
-            left: -50px;
+            background-color: #80deea;
+            top: 20%;
+            left: 70%;
+            width: 200px; /* elongated width */
         }
 
         .block13 {
-            background-color: #ce93d8;
-            width: 200px;
-            height: 150px;
-            bottom: 40%;
-            right: 10%;
+            background-color: #e0e0e0;
+            bottom: 50%;
+            right: 70%;
         }
 
         .block14 {
-            background-color: #9fa8da;
-            width: 100px;
-            height: 350px;
-            top: -50px;
-            left: 80%;
+            background-color: #c5e1a5;
+            top: 90%;
+            left: 20%;
         }
 
         .block15 {
-            background-color: #ff8a65;
-            width: 150px;
-            height: 200px;
+            background-color: #fff59d;
             bottom: 80%;
-            right: 20%;
+            right: 10%;
         }
 
         .block16 {
-            background-color: #80deea;
-            width: 300px;
-            height: 80px;
-            top: 90%;
-            left: 10%;
+            background-color: #ef9a9a;
+            top: 60%;
+            left: 5%;
         }
     </style>
 </head>
@@ -245,4 +221,17 @@
     <nav>
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
-        <a href
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! My name is Nico Short. Welcome to my personal webpage. Here you can learn more about my projects and how to get in touch with me.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li><strong>
